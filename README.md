@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Click here for solution](https://github.com/ArryBlack/Newsletter-Signup-with-vanilla-css-and-js-for-frontend-mentor)
--   Live Site URL: [Click here to view the live site](https://your-live-site-url.com)
+-   Live Site URL: [Click here to view the live site](https://github.com/ArryBlack/Newsletter-Signup-with-vanilla-css-and-js-for-frontend-mentor/settings/pages)
 
 ## My process
 
@@ -37,7 +37,6 @@ Users should be able to:
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--   CSS Grid
 -   Mobile-first workflow
 
 ### What I learned
