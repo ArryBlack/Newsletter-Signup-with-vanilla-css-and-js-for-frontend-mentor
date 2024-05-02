@@ -89,6 +89,36 @@ label {
 .submit_btn:hover {
     cursor: pointer;
 }
+.success_icon {
+    margin-top: 10em;
+    margin-bottom: 2em;
+}
+.success_heading {
+    color: var(--dark-slate-grey);
+    margin-bottom: 0.5em;
+    font-size: 2rem;
+}
+.success_paragraph {
+    color: var(--charcoal-grey);
+    margin-bottom: 10em;
+    font-size: 0.9rem;
+}
+.dismiss_btn {
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--dark-slate-grey);
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.container {
+    padding: 1em;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 @media (min-width: 700px) {
     .desktop_img {
@@ -124,5 +154,20 @@ label {
     }
     .signup_form--heading {
         font-size: 3rem;
+    }
+    .success_card {
+        width: 40%;
+        max-width: 400px;
+
+        padding-bottom: 4em;
+    }
+    .container {
+        padding: 0;
+    }
+    .success_icon {
+        margin-top: 2em;
+    }
+    .success_paragraph {
+        margin-bottom: 3em;
     }
 }
