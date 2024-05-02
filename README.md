@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Click here for solution](https://github.com/ArryBlack/Newsletter-Signup-with-vanilla-css-and-js-for-frontend-mentor)
--   Live Site URL: [Click here to view the live site](https://github.com/ArryBlack/Newsletter-Signup-with-vanilla-css-and-js-for-frontend-mentor/settings/pages)
+-   Live Site URL: [Click here to view the live site](https://arryblack.github.io/Newsletter-Signup-with-vanilla-css-and-js-for-frontend-mentor/)
 
 ## My process
 
