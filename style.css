@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 16px;
+    --tomato: hsl(4, 100%, 67%);
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.image img {
+    width: 100%;
+}
+.desktop_img {
+    display: none;
+}
+.signup_form {
+    width: 80%;
+    margin: 1em auto;
+}
+.signup_form--heading {
+    color: var(--dark-slate-grey);
+}
+.signup_form--paragraph {
+    margin: 1.5em 0;
+    color: var(--charcoal-grey);
+}
+.signup_form--list {
+    margin: 2em 0;
+    list-style: none;
+}
+.signup_form--list li {
+    margin: 1em 0;
+    display: flex;
+}
+.signup_form--list li span {
+    margin-left: 0.7em;
+    color: var(--charcoal-grey);
+    font-size: 0.9rem;
+}
+form {
+    margin: 2em 0;
+}
+label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--dark-slate-grey);
+    display: flex;
+    justify-content: space-between;
+}
+.error_message {
+    color: var(--tomato);
+    display: none;
+}
+.email {
+    margin-bottom: 1em;
+    width: 98%;
+    height: 3em;
+    border-radius: 5px;
+    border: 1px solid var(--grey);
+    padding-left: 1em;
+}
+
+.email:focus {
+    outline: none;
+    border-color: black;
+}
+.error {
+    color: var(--tomato);
+    border-color: var(--tomato);
+    background-color: hsla(4, 100%, 67%, 20%);
+}
+.submit_btn {
+    width: 100%;
+    height: 4em;
+    margin: 1em 0;
+    color: var(--white);
+    background-color: var(--dark-slate-grey);
+    border-radius: 10px;
+    padding: 1em 2em;
+    font-weight: 700;
+    border: 0;
+}
+.submit_btn:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .desktop_img {
+        display: block;
+    }
+    .mobile_img {
+        display: none;
+    }
+    body {
+        background-color: var(--dark-slate-grey);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main {
+        background-color: var(--white);
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        padding: 1em;
+        border-radius: 10px;
+        max-width: 830px;
+    }
+    .signup_form {
+        padding: 1em;
+        width: 45%;
+    }
+    .image {
+        width: 40%;
+    }
+    .signup_form--heading {
+        font-size: 3rem;
+    }
+}
