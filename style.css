@@ -56,6 +56,7 @@ label {
 .error_message {
     color: var(--tomato);
     display: none;
+    transition: 200ms;
 }
 .email {
     margin-bottom: 1em;
@@ -74,6 +75,7 @@ label {
     color: var(--tomato);
     border-color: var(--tomato);
     background-color: hsla(4, 100%, 67%, 20%);
+    transition: 200ms;
 }
 .submit_btn {
     width: 100%;
